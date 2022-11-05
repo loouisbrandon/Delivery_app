@@ -4,8 +4,8 @@
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue: 210;
-  --sat: 85%;
+  --hue: 45;
+  --sat: 92%;
   --first-color: hsl(var(--hue), var(--sat), 60%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%) ;
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
@@ -253,7 +253,7 @@ body.dark-theme {
 }
 .button-link {
   background: none;
-  padding: 0;
+  padding: 10;
   color: var(--title-color);
 }
 .button-link:hover {
@@ -462,6 +462,12 @@ body.dark-theme {
 .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .app__buttons {
+    padding-right: 6.5rem;
+  }
+  .app__container {
+    padding-left: 10rem;
+  }
   .home__img {
     order: 1;
   }
@@ -501,6 +507,12 @@ body.dark-theme {
   .nav__toggle {
     display: none;
   }
+  .app__buttons {
+    padding-left: 4.5rem;
+  }
+  .app__container {
+    padding-left: 15rem;
+  }
   .change-theme {
     position: initial;
   }
@@ -529,6 +541,12 @@ body.dark-theme {
   .services__container {
     grid-template-columns: repeat(3, 1fr);
   }
+  .app__buttons {
+    padding-left: 4.5rem;
+  }
+  .app__container {
+    padding-left: 15rem;
+  }
   .contact__container {
     grid-template-columns: 3fr 1.5fr 1.25fr;
   }
@@ -552,6 +570,12 @@ body.dark-theme {
   }
   .home__description {
     padding-right: 5rem;
+  }
+  .app__buttons {
+    padding-left: 4.5rem;
+  }
+  .app__container {
+    padding-left: 15rem;
   }
   .footer__container {
     -moz-column-gap: 3rem;
